@@ -1,26 +1,49 @@
 [
     {
-      "id": "nextcloud",
-      "category": "Files",
-      "name": "Nextcloud",
-      "version": "22.1.1",
-      "tagline": "Productivity platform that keeps you in control",
-      "description": "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on your Umbrel instead of some company's data center. Features:\n\n- Mobile and desktop sync \n- Versioning and undelete \n- Galleries and activity feed \n- File editing and preview support for PDF, images, text files, Open Document, Word files and more. \n- Smooth performance and easy user interface. \n- Fine-grained control over access to data and sharing capabilities by user and by group.\n\nNote: After logging in to Nextcloud please change the password to something secure before sharing the address with anyone.",
-      "developer": "Nextcloud GmbH",
-      "website": "https://nextcloud.com",
-      "dependencies": [],
-      "repo": "https://github.com/nextcloud/server",
-      "support": "https://help.nextcloud.com/categories",
-      "port": 8081,
-      "gallery": [
-          "1.jpg",
-          "2.jpg",
-          "3.jpg"
-      ],
-      "path": "",
-      "defaultUsername": "umbrel",
-      "defaultPassword": "moneyprintergobrrr",
-      "torOnly": false
+        "id": "ringtoolsweb",
+        "category": "Lightning Node Management",
+        "name": "Ringtools-Web",
+        "version": "0.1.0",
+        "tagline": "#connect_the_world",
+        "description": "Ringtools-Web aims to be a user-friendly support tool which can be used to balance rings of fire. It has been battle tested by the Satoshi Radio ROF community (part of Satoshi Radio, a Dutch podcast about cryptocurrency).",
+        "developer": "dsbaars",
+        "website": "https://github.com/dsbaars/srrof-ringtools-web/",
+        "dependencies": [],
+        "repo": "https://github.com/dsbaars/srrof-ringtools-web/",
+        "support": "https://github.com/dsbaars/srrof-ringtools-web/",
+        "port": 5000,
+        "gallery": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+        ],
+        "path": "",
+        "defaultUsername": "",
+        "defaultPassword": "",
+        "torOnly": false
+    },
+    {
+        "id": "nextcloud",
+        "category": "Files",
+        "name": "Nextcloud",
+        "version": "22.1.1",
+        "tagline": "Productivity platform that keeps you in control",
+        "description": "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on your Umbrel instead of some company's data center. Features:\n\n- Mobile and desktop sync \n- Versioning and undelete \n- Galleries and activity feed \n- File editing and preview support for PDF, images, text files, Open Document, Word files and more. \n- Smooth performance and easy user interface. \n- Fine-grained control over access to data and sharing capabilities by user and by group.\n\nNote: After logging in to Nextcloud please change the password to something secure before sharing the address with anyone.",
+        "developer": "Nextcloud GmbH",
+        "website": "https://nextcloud.com",
+        "dependencies": [],
+        "repo": "https://github.com/nextcloud/server",
+        "support": "https://help.nextcloud.com/categories",
+        "port": 8081,
+        "gallery": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+        ],
+        "path": "",
+        "defaultUsername": "umbrel",
+        "defaultPassword": "moneyprintergobrrr",
+        "torOnly": false
     },
     {
         "id": "photoprism",
